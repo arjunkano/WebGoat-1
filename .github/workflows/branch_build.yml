@@ -1,10 +1,7 @@
 name: "Branch build"
 on:
   push:
-    branches-ignore:
-      - master
-      - develop
-      - release/*
+    - develop
 jobs:
   install-notest:
     runs-on: ubuntu-latest
