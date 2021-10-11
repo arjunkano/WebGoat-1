@@ -1,7 +1,7 @@
 name: "Branch build"
 on:
   push:
-    - develop
+    branches: [develop]
 jobs:
   install-notest:
     runs-on: ubuntu-latest
